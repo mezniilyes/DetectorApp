@@ -43,7 +43,6 @@ android.archs = arm64-v8a
 android.debug = True
 
 [buildozer]
-# (int) Niveau de détails des messages de compilation (2 = maximum, idéal pour voir les erreurs)
 log_level = 2
 build_dir = ./.buildozer
 
