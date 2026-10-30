@@ -40,7 +40,8 @@ jobs:
           python -m pip install buildozer Cython==0.29.36
 
       - name: Compiler le fichier APK
-        run: buildozer android debug
+        run: |
+          yes | buildozer android debug
 
       - name: Récupérer le fichier APK
         uses: actions/upload-artifact@v4
