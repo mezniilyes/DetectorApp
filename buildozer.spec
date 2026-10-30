@@ -44,7 +44,6 @@ android.debug = True
 
 [buildozer]
 log_level = 2
-build_dir = ./.buildozer
 
 # (str) Chemin du dossier de stockage des outils Android
 build_dir = ./.buildozer
