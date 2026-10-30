@@ -34,6 +34,9 @@ orientation = landscape
 fullscreen = 1
 
 # (str) Format de l'architecture cible (armeabi-v7a pour anciens téléphones, arm64-v8a pour les modernes)
+android.api = 34
+android.minapi = 23
+android.ndk = 25b
 android.archs = arm64-v8a
 
 # (bool) Autoriser le débogage de l'application
@@ -42,6 +45,7 @@ android.debug = True
 [buildozer]
 # (int) Niveau de détails des messages de compilation (2 = maximum, idéal pour voir les erreurs)
 log_level = 2
+build_dir = ./.buildozer
 
 # (str) Chemin du dossier de stockage des outils Android
 build_dir = ./.buildozer
